@@ -19,7 +19,7 @@ print("calculate the total is " + str(calulateTotal))
 
 #function
 def days_to_units(value):
-    print(f"{value} day are  {20*24*60*60} seconds")
+    print(f"{value} day are  {value*24*60*60} seconds")
     print("all good")
 
 
