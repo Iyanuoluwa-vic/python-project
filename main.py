@@ -22,15 +22,11 @@ def days_to_units(value,custom_message):
     print(f"{value} day are  {value*24*60*60} seconds")
     print(custom_message)
 
-
-
 days_to_units(20,"awesome good!")
 
-
-
-
-
-
+# get user input
+user_input = input("what is value\n")
+print(user_input)
 
 
 
