@@ -7,10 +7,12 @@ print(20*24*60)
 # string concatenation
 print("20 day are " + str(50) + " minutes" )
 
-print(f"20 day are  {50} minutes")
+print(f"20 day are  {20*24*60*60} seconds")
 
 
-`
+
+
+
 
 
 
