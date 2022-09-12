@@ -17,6 +17,15 @@ print("calculate the total is " + str(calulateTotal))
 
 
 
+#function
+def days_to_units():
+    print(f"20 day are  {20*24*60*60} seconds")
+    print("all good")
+
+
+
+days_to_units()
+
 
 
 
