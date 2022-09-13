@@ -47,13 +47,16 @@ print(area);
 
 
 
+# conditionals expression
+def age(age):
+    if(age>0):
+        print(age)
+    else:
+        print("that an invalid age")
 
 
 
-
-
-
-
+age(-4);
 
 
 
