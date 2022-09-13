@@ -1,16 +1,20 @@
 #display an info
+print("display an info")
 print("200 is a number")
 
 # arithmetic opertion
+print("arithmetic opertion")
 print(20*24*60)
 
 # string concatenation
+print("string concatenation")
 print("20 day are " + str(50) + " minutes" )
 
 print(f"20 day are  {20*24*60*60} seconds")
 
 
 # variable
+print("variable")
 calulateTotal= 24*60*60
 
 print("calculate the total is " + str(calulateTotal))
@@ -18,6 +22,7 @@ print("calculate the total is " + str(calulateTotal))
 
 
 #function
+print("function")
 def days_to_units(value,custom_message):
     print(f"{value} day are  {value*24*60*60} seconds")
     print(custom_message)
@@ -30,9 +35,11 @@ print(user_input)
 
 
 # convert user input from string to int
+print("convert user input from string to int")
 main_input=input("enter input\n")
-main_input_number=int(main_input)
-print(main_input_number)
+if main_input.isdigit():
+     main_input_number=int(main_input)
+     print(main_input_number)
 
 #return value from a function
 
@@ -48,6 +55,7 @@ print(area);
 
 
 # conditionals expression
+print("conditionals expression")
 def age(age):
     if(age>0):
         print(age)
@@ -57,6 +65,8 @@ def age(age):
         print("that an invalid age")
 
 age(-4);
+
+
 
 
 
