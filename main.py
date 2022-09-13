@@ -51,12 +51,15 @@ print(area);
 def age(age):
     if(age>0):
         print(age)
+    elif(age==0):
+        print("you entered 0")
     else:
         print("that an invalid age")
 
-
-
 age(-4);
+
+
+
 
 
 
