@@ -30,10 +30,15 @@ print(user_input)
 
 
 
+#return value from a function
+
+def area(length,width):
+    return length* width
 
 
+area = area(3,5)
 
-
+print(area);
 
 
 
