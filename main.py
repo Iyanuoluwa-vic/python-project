@@ -29,6 +29,10 @@ user_input = input("what is value\n")
 print(user_input)
 
 
+# convert user input from string to int
+main_input=input("enter input")
+main_input_number=int(main_input)
+print(main_input_number)
 
 #return value from a function
 
@@ -39,6 +43,8 @@ def area(length,width):
 area = area(3,5)
 
 print(area);
+
+
 
 
 
